@@ -92,12 +92,19 @@ border-radius: 5px;
     justify-content: center;
     color: var(--tertiary-color);
     font-weight: bold;
+    margin: 10px;
 }
 
-.languages {
-    padding: 20px;
+.languages-tools h4 {
+    font-size: 30px;
+    font-style: italic;
+    margin: 20px 0;
 }
 
-.tools {
-    padding: 20px;
+.languages article {
+    padding: 5px;
+}
+
+.tools article {
+    padding: 5px;
 }
