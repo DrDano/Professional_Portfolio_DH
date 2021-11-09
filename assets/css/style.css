@@ -67,15 +67,20 @@ color: var(--primary-color);
 border-radius: 5px;
 }
 
-.portrait img {
-    width: 30%;
-    margin: 0;
-    background-color: var(--tertiary-color);
-    background-attachment: fixed;
-}
-
 .hero {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--primary-color);
+}
+
+.intro {
+    width: 30%;
+}
+
+.portrait img {
+    width: 40vw;
+    margin: 0;
+    background-color: var(--primary-color);
+    background-attachment: fixed;
 }
