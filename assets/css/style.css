@@ -1,6 +1,6 @@
 :root {
     --primary-color: #79C9B7;
-    --secondar-color: #56A996;
+    --secondary-color: #56A996;
     --tertiary-color: #A95669;
 }
 
@@ -16,8 +16,11 @@ body {
   }
 
 header {
-        padding: 20px 35px;
-        background-color: var(--secondar-color);
+        padding: 20px 10px;
+        background-color: var(--secondary-color);
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
 }
 
 header h1 {
@@ -28,6 +31,13 @@ header h1 {
 header nav ul {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+header nav ul li {
+    padding: 20px;
+    list-style: none;
 }
 
 .portrait img {
