@@ -76,6 +76,7 @@ border-radius: 5px;
 
 .intro {
     width: 30%;
+    color: var(--tertiary-color);
 }
 
 .portrait img {
