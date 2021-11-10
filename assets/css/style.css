@@ -108,3 +108,17 @@ border-radius: 5px;
 .tools article {
     padding: 5px;
 }
+
+.projects-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects-section article {
+    width: 100px;
+    height: auto;
+}
+
+.projects-section img {
+    object-fit: cover;
+}
