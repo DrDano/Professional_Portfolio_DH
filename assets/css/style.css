@@ -111,14 +111,20 @@ border-radius: 5px;
 
 .projects-section {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1;
+    width: 100px
 }
 
 .projects-section article {
-    width: 100px;
-    height: auto;
+    /* comment placeholder */
 }
 
-.projects-section img {
+.projects-section div {
     object-fit: cover;
+    width: 800px;
+}
+
+.projects-section div img {
+    width: 800px;
 }
