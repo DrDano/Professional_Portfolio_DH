@@ -168,7 +168,8 @@ footer {
 
     .portrait {
         flex: 1;
-        max-width: 23%;
+        max-width: 100%;
+        width: none;
     }
 
     .portrait img {
@@ -176,7 +177,7 @@ footer {
     }
 
     .about-section {
-        flex: 5;
+        flex: 2;
     }
 
     .body-elements {
@@ -185,6 +186,7 @@ footer {
         align-items: center;
         background: var(--primary-color);
         justify-content: space-between;
+        width: 100%;
     }
 
     .languages-tools {
@@ -208,18 +210,8 @@ footer {
   }
   
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
-  @media screen and (max-width: 768px) {
-
-    section {
-        padding: 30px 15px;
-    }
-
-  }
-  
-  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-  @media screen and (max-width: 575px) {
-  
-    .hero-form button {
+  @media screen and (max-width: 767px) {
+    .projects-section > article:not(:first-child) {
         width: 100%;
     }
 
