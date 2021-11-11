@@ -88,7 +88,7 @@ border-radius: 5px;
 
 .body-elements {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
@@ -100,7 +100,7 @@ border-radius: 5px;
     font-weight: bold;
     margin: 10px;
     width: 25%;
-    flex: 1;
+    flex: 0 1;
 }
 
 .languages-tools h4 {
@@ -122,18 +122,19 @@ border-radius: 5px;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    width: 45%;
+    flex: 1 50%;
 }
 
 .projects-section article {
-    
+    margin: 20px;
+    color: var(--tertiary-color);
 }
 
 .projects-section div {
-    object-fit: cover;
-    width: 800px;
+    
 }
 
 .projects-section div img {
-    width: 800px;
+    max-width: 100%;
+    max-height: 100%;
 }
