@@ -120,11 +120,9 @@ border-radius: 5px;
 
 .projects-section {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    align-items: flex-start;
     flex: 1;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .projects-section article {
@@ -133,7 +131,7 @@ border-radius: 5px;
 }
 
 .projects-section > article:not(:first-child) {
-    width: 50%;
+    width: 44%;
 }
 
 .projects-section div {
