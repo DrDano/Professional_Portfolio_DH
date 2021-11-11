@@ -136,17 +136,17 @@ border-radius: 5px;
     width: 44%;
 }
 
-.projects-section div {
+.projects-section a {
     display: flex;
 }
 
-.projects-section div img {
+.projects-section a img {
     max-width: 100%;
     max-height: 100%;
     box-shadow: -3px 2px 15px gray;
 }
 
-.projects-section div img:hover {
+.projects-section a img:hover {
     opacity: 50%;
 }
 
