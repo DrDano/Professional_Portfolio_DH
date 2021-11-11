@@ -95,12 +95,13 @@ border-radius: 5px;
 .languages-tools {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     color: var(--tertiary-color);
     font-weight: bold;
-    margin: 10px;
+    padding: 20px;
     width: 25%;
     flex: 0 1;
+    max-height: 35%;
 }
 
 .languages-tools h4 {
@@ -122,12 +123,17 @@ border-radius: 5px;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    flex: 1 50%;
+    flex: 1;
+    justify-content: center;
 }
 
 .projects-section article {
     margin: 20px;
     color: var(--tertiary-color);
+}
+
+.projects-section > article:not(:first-child) {
+    width: 50%;
 }
 
 .projects-section div {
