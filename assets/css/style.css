@@ -159,8 +159,25 @@ footer {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-    header {
-    
+
+    .hero {
+        display: flex;
+        flex-direction: row;
+        padding: none;
+    }
+
+    .portrait {
+        flex: 1;
+        max-width: 23%;
+    }
+
+    .portrait img {
+        max-width: 100%;
+    }
+
+    .about-section {
+        flex: 5;
+
     }
 
   }
