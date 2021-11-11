@@ -124,6 +124,7 @@ border-radius: 5px;
     flex-wrap: wrap;
     flex: 1;
     justify-content: space-around;
+    border: 1px solid var(--tertiary-color);
 }
 
 .projects-section article {
