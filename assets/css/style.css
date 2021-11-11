@@ -157,6 +157,15 @@ footer {
     justify-content: space-between;
 }
 
+.contact-info a {
+    color: var(--alternative-color);
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: var(--secondary-color);
+}
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
 
