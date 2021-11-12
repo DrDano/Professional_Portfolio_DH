@@ -12,4 +12,4 @@ I am a developer-in-training, currently employed as an analyst at a wholesale nu
 ![Deployed Website](https://github.com/DrDano/Professional_Portfolio_DH/blob/b651ecc459dfc2a89f592f1c54b56940f82206b8/assets/images/screencapture-drdano-github-io-Professional-Portfolio-DH-2021-11-11-22_19_51.png)
 
 ## Credits
-[Thanks to ]().
+[Thanks to Pixabay for some very nice open-source images](https://pixabay.com/).
