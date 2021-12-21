@@ -14,6 +14,12 @@
 body {
     color: var(--primary-color);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 1.65;
+  }
+
+  p {
+      margin-top: 0;
+      text-align: justify;
   }
 
 header {
@@ -111,12 +117,15 @@ border-radius: 5px;
     margin: 20px 0;
 }
 
-.languages article {
+.languages-tools ul {
+    list-style: none;
     padding: 5px;
 }
 
-.tools article {
-    padding: 5px;
+.languages-tools li::before {
+    content: "\1F449";
+    display: inline-block;
+    margin-right: 0.2rem;
 }
 
 .projects-section {
