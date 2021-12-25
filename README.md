@@ -9,7 +9,7 @@ I am a developer-in-training, currently employed as an analyst at a wholesale nu
 [Daniel's Portfolio](https://drdano.github.io/Professional_Portfolio_DH/)
 
 ## Deployment Finished Product Image
-![Deployed Website](https://github.com/DrDano/Professional_Portfolio_DH/blob/b651ecc459dfc2a89f592f1c54b56940f82206b8/assets/images/screencapture-drdano-github-io-Professional-Portfolio-DH-2021-11-11-22_19_51.png)
+![Deployed Website](https://github.com/DrDano/Professional_Portfolio_DH/blob/135609638c23c4629bdc1fd456140c979743a056/assets/images/chew-view-deployed.png)
 
 ## Credits
 [Thanks to Pixabay for some very nice open-source images](https://pixabay.com/).
