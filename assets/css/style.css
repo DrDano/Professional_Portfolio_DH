@@ -185,15 +185,42 @@ footer {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
 
+    body {
+        background-color: var(--primary-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        min-width: 100%;
+    }
+
+    header nav ul li a{
+        font-size: 0.6rem;
+        padding: 0.4rem;
+    }
+
+    p {
+        margin: 0 2rem 1rem 2rem;
+        text-align: justify;
+        font-size: 0.7rem;
+    }
+
     .hero {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        max-width: 80%;
         padding: none;
+    }
+
+    .hero h2 {
+        text-align: center;
     }
 
     .portrait {
         flex: 1;
-        max-width: 100%;
+        max-width: 70%;
         width: none;
     }
 
@@ -202,7 +229,7 @@ footer {
     }
 
     .about-section {
-        flex: 2;
+        flex: 1;
     }
 
     .body-elements {
@@ -218,6 +245,7 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        min-width: 100%;
     }
 
     .languages {
@@ -230,6 +258,12 @@ footer {
 
     .projects-section {
         background: var(--alternative-color);
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        min-width: 100%;
     }
 
   }
